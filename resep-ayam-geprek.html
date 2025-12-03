@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resep Ayam Geprek</title>
+ <style>
+     .header {
+            background-color: green;
+            align-items: center;
+            display: flex;
+            padding: 15px;
+            border-bottom: 1px solid #dedede;
+        }
+
+        .header h2 {
+            font-size: 22px;
+            margin: 0;
+            color: white;
+            text-align: center;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+    /* === STYLE UMUM === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #e8f5e9;
+  color: #333;
+}
+
+/* === JUDUL HALAMAN === */
+h2 {
+  text-align: center;
+  color: #007c3a;
+  margin: 25px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* === GRID MENU === */
+.menu {
+  padding: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+  padding: 10px;
+}
+
+/* === CARD MENU RESEP === */
+.card {
+  background: white;
+  text-decoration: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+  overflow: hidden;
+  transition: 0.2s;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card p {
+  font-weight: 600;
+  color: #007c3a;
+  margin-top: 10px;
+}
+
+/* === DETAIL RESEP === */
+.detail {
+  padding: 25px;
+  background: #c8e6c9;
+  min-height: 100vh;
+}
+
+.detail-card {
+  max-width: 450px;
+  background: white;
+  margin: auto;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.detail-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.detail-card h3 {
+  color: #007c3a;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.detail-card p {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* === TOMBOL KEMBALI === */
+.btn-back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: #007c3a;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.btn-back:hover {
+  background: #005a28;
+}
+ </style>
+</head>
+<body>
+     <div class="header">
+        <img src="elli.png" class="head">
+        <h2>Resep Makanan</h2>
+    </div>
+<section class="detail">
+  <div class="detail-card">
+    <img src="geprek.jpg">
+    <h3>Ayam Geprek</h3>
+    <p>
+      <strong>Bahan:</strong><br>
+      - Ayam goreng crispy<br>
+      - Sambal bawang (cabai, bawang putih, garam)<br><br>
+      <strong>Cara Membuat:</strong><br>
+      1. Ulek sambal bawang.<br>
+      2. Geprek ayam di atas sambal.<br>
+      3. Siap disajikan!
+    </p>
+    <a href="index.html" class="btn-back">← Kembali</a>
+  </div>
+</section>
+</body>
+</html>
